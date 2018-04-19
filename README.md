@@ -78,7 +78,7 @@ class Nonprofit {
 }
 ```
 
-Notice above that Company class and Nonprofit class share a two properties. _(name & location)_ Using a parent class, we would be able to abstract these shared properties of the children away, in order to simplify and shorten the code. The parent class for Company and Nonprofit is shown below, as Organization.
+Notice above that Company class and Nonprofit class share two properties. _(name & location)_ Using a parent class, we would be able to abstract these shared properties of the children away, in order to simplify and shorten the code. The parent class for Company and Nonprofit is shown below, as Organization.
 
 ```
 class Organization {
